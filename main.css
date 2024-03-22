@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 600px;
+    /* background-color: antiquewhite; */
+    background-image: url("./img/bg.jpg");
+    color: white;
+}
+
+nav{
+    padding: 25px;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    font-family: "Libre Franklin", sans-serif;
+
+}
+
+.bir{
+    width: 40%;
+}
+
+.ikki{
+    width: 60%;
+}
+.ikki ul li{
+    display: inline-flex;
+    margin-left: 45px;
+    font-weight: 600;
+}
+
+.ikki button{
+    padding: 15px;
+    outline: none;
+    border: none;
+    border: solid 1px white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+header h1{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: "IBM Plex Mono", monospace;
+
+}
+
+header p{
+    font-family: "IBM Plex Mono", monospace;
+    text-align: center;
+    margin-top: 15px;
+}
+#light{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header #button{
+    padding: 15px 25px;
+    background-color: #5AB963;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    margin-top: 35px;
+}
+#icon{
+    display: none;
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (max-width:992px) {
+    .ikki ul li{
+        display: none;   
+    }
+    #icon{
+        display: block;
+        display: flex;
+        justify-content: end;
+    }
+    header #h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #h1 h1{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header h1{
+        width: 100%;
+        font-size: 36px;
+    }
+
+    header #p{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    header p{
+        width: 80%;
+    }
+}
+
+.section1{
+    width: 100%;
+    height: 600px;
+    padding: 60px;
+}
+
+.section1 .uch{
+    font-family: "Libre Franklin", sans-serif;
+    width: 42%;
+}   
+
+.uch span{
+    font-weight: 100;
+    color: rgb(190, 190, 190);
+}
+.tort{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card{
+    width: 28%;
+    height: 300px;
+    box-shadow: 0px 0px 15px grey;
+    padding: 20px;
+    font-family: "IBM Plex Mono", monospace;
+    border-radius: 5px;
+    margin-top: 80px;
+
+}
+
+.card h3{
+    margin-top: 20px;
+}
+
+.card p{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:768px){
+   .section1{
+    height: 1200px;
+   }
+    .section1 .uch{
+    width: 90%;
+   }
+    .tort{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
+.section2{
+    width: 100%;
+    height: 850px;
+
+}
+
+.couresel{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.couresel .couresel1{
+    width: 90%;
+    height: 600px;
+    background-image: url("./img/couresel.jpg");
+    background-size: cover;
+}
+.Ill{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-top: 70px;
+}
+
+.Ill h2{
+    width: 60%;
+    text-align: center;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.Ill h2 >span{
+    font-weight: 100;
+    color: rgb(190, 190, 190);
+}
+
+.section2 >p{
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+    
+}
+
+.section2 >p >a{
+    color: #5AB963;
+    text-decoration: none;
+}
+
+@media screen and (max-width:992px){
+    .Ill{
+        height: 180px;
+    }
+    .Ill{
+        height: 200px;
+    }
+    .section2{
+        height: 1000px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:768px){
+    
+    .Ill{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:576px){
+    
+    .Ill{
+        height: 240px;
+    }
+    
+}
+
+footer{
+    background-color: #0A0E1A;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+    height: 300px;
+    color: white;
+    font-family: Libr;
+    font-size: 15px;
+}
+.footer{
+    width: 90%;
+    font-family: "Libre Franklin", sans-serif;
+    display: flex;
+    height: 100%;
+}
+.one{
+    width: 40%;
+}
+.two{
+    width: 18%;
+}
+.two ul li{
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.five{
+    display: flex;
+    justify-content: space-around;
+    width: 6%;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
